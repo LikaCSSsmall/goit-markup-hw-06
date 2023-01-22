@@ -696,6 +696,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-button);
   cursor: pointer;
+  transition: background-color var(---timing-function);
+}
+
+.footer-btn:is(:hover,:focus) {
+  background-color: var(--hover-color);
 }
 
 .form-field {
@@ -710,7 +715,7 @@ body {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  transition: outline var(---timing-function) ;
+  transition:  outline var(---timing-function) ;
 }
 
 .form-input:is(:focus, :active) {
