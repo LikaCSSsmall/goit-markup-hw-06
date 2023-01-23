@@ -360,12 +360,12 @@ body {
 }
 
 .modal-form-desc::before{
-  content: "";
-  display: block;
-  width: 18px;
-  height: 18px;
-  border: 1px solid var(--primary-text-color);
-    border-radius: 4px;
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid var(--primary-text-color);
+    border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
     transition: background-color var(---timing-function), border var(---timing-function) ;
@@ -373,15 +373,15 @@ body {
 
 .check-input:checked +  .modal-form-desc::before{
   background-color: var(--hover-color);
-  border: 1px solid var(--hover-color);
+  border: 1.25px solid var(--hover-color);
   background-image: url(../images/check-box.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .check-input:focus + .modal-form-desc::before{
-  outline: 1px solid var(--hover-color);
-  border: 1px solid var(--hover-color);
+  outline: 1.25px solid var(--hover-color);
+  border: 1.25px solid var(--hover-color);
 }
 
 /*.modal-form-checkbox {
