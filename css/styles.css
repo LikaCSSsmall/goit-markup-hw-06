@@ -402,7 +402,7 @@ body {
   opacity: 0;
 }
 
-.check-input:checked ~ .checkbox-svg{
+.check-input:checked ~ Бmodal-form-checkbox{
   background-color: var(--hover-color);
   border: 1.25px solid var(--hover-color);
   outline: 1.25px solid var(--hover-color);
