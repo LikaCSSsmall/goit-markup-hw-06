@@ -389,6 +389,7 @@ body {
 
 .policy-link {
   color: var(--accent-color);
+  margin-left: 5px;
 }
 
 
